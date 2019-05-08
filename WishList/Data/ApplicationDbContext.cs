@@ -14,7 +14,7 @@ namespace WishList.Data
         {
         }
         public int MyProperty { get; set; }
-        public DbSet<Item> items { get; set; }
+        public DbSet<Item> Items { get; set; }
 
     }
 }
